@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Task Force 696 — Arma 3 Milsim Thailand</title>
+    <meta
+      name="description"
+      content="TF696 คือคอมมูนิตี้ Arma 3 Milsim สำหรับผู้เล่นชาวไทย ที่เน้นการทำงานเป็นทีม การวางแผน การฝึก และภารกิจแบบ Milsim"
+    />
+
+    <!-- Production origin, locked in Phase 7A: the GitHub Pages project page
+         for Pongsapuk/TF696. The directory form is canonical — GitHub Pages
+         serves the same document at /TF696/index.html, and pointing at that URL
+         instead would split the two. -->
+    <link rel="canonical" href="https://pongsapuk.github.io/TF696/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Third-party dependency, stated plainly: the two typefaces are served by
+         Google Fonts, so first paint depends on fonts.googleapis.com and
+         fonts.gstatic.com being reachable. `display=swap` means text still
+         renders in the fallback stack if they are not. Self-hosting is a known
+         open option (Phase 6 §23.11); it is deliberately not done here, because
+         changing the font delivery path immediately before a first deployment
+         buys risk, not confidence. -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- The page is image-led, so large image previews are worth opting into;
+         index/follow is stated alongside it rather than left implicit. -->
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#050505" />
+    <meta name="color-scheme" content="dark" />
+
+    <!-- Derived from the canonical TF696 logo by scripts/generate-favicon.mjs.
+         The legacy img/favicon.ico is an older mark and renders near-black at
+         every size, so it is deliberately not wired up. -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48 32x32 16x16" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Task Force 696" />
+    <meta property="og:title" content="Task Force 696 — Arma 3 Milsim Thailand" />
+    <meta
+      property="og:description"
+      content="TF696 คือคอมมูนิตี้ Arma 3 Milsim สำหรับผู้เล่นชาวไทย ที่เน้นการทำงานเป็นทีม การวางแผน การฝึก และภารกิจแบบ Milsim"
+    />
+    <meta property="og:locale" content="th_TH" />
+    <meta property="og:url" content="https://pongsapuk.github.io/TF696/" />
+    <meta property="og:image" content="https://pongsapuk.github.io/TF696/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <!-- Names the game and the community, so the card cannot be mistaken for a
+         photograph of real military activity. -->
+    <meta
+      property="og:image:alt"
+      content="ทีม TF696 ในเกม Arma 3 — ภาพหมู่ตัวละครในภารกิจ Milsim (TF696 squad photo captured in Arma 3)"
+    />
+
+    <!--
+      Structured data, deliberately minimal. Every field below is verifiable
+      from the page itself: the site's name, its URL, its language, its own meta
+      description, and the game it is about. Nothing is asserted about
+      membership, founding, location, contact or affiliation — this describes a
+      website about an Arma 3 community, which is what it is.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Task Force 696",
+        "alternateName": "TF696",
+        "url": "https://pongsapuk.github.io/TF696/",
+        "inLanguage": "th",
+        "description": "TF696 คือคอมมูนิตี้ Arma 3 Milsim สำหรับผู้เล่นชาวไทย ที่เน้นการทำงานเป็นทีม การวางแผน การฝึก และภารกิจแบบ Milsim",
+        "about": {
+          "@type": "VideoGame",
+          "name": "Arma 3"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

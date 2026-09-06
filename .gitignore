@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Production output
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Legacy media excluded from the public repository (Phase 7B).
+#
+# None of these is referenced by src/, index.html, the build, or any of the
+# generation scripts in scripts/ — verified against optimize-images.mjs
+# SOURCES, generate-favicon.mjs, generate-og-image.mjs and
+# src/assets/optimized/manifest.json. They are recovery-archive files only.
+#
+# They remain on disk and in the external backup; nothing is deleted. The rest
+# of img/ IS tracked, because it is the source-master bank the image, favicon
+# and OG-image workflows read.
+
+# Third-party commercial music from the legacy site. Unused in V2, and not ours
+# to redistribute from a public repository.
+audio/
+
+# Large unreferenced archival files: an orphaned 18 MB trailer and a 15 MB
+# 6912x3456 composite plate. Together ~33 MB of clone weight for no build input.
+img/tf696.mp4
+img/696SQ.png

@@ -1,0 +1,24 @@
+# Task Force 696 — Arma 3 Milsim community site.
+# Single static page; everything on it is meant to be indexed.
+User-agent: *
+Allow: /
+
+# READ THIS BEFORE RELYING ON THIS FILE.
+#
+# The site deploys as a GitHub Pages *project* page, so this file publishes at
+#   https://pongsapuk.github.io/TF696/robots.txt
+# Crawlers only fetch robots.txt from the ORIGIN ROOT:
+#   https://pongsapuk.github.io/robots.txt
+# which is served by the pongsapuk.github.io *user* site, not by this
+# repository.
+#
+# So the rules above do not govern crawling of this site. The effective policy
+# is whatever the origin root returns. Nothing here is a crawl control; the file
+# is kept because it is harmless, correct on its own terms, and would take
+# effect unchanged if the site ever moved to an origin root or a custom domain.
+#
+# The Sitemap line below is recorded for the same reason. It is a valid absolute
+# URL and the sitemap really is served at it, but because this file is not read
+# at the origin root, no crawler will discover the sitemap through it. Sitemap
+# submission has to happen out of band (e.g. Search Console).
+Sitemap: https://pongsapuk.github.io/TF696/sitemap.xml

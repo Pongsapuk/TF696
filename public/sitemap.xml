@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Task Force 696 — sitemap.
+
+  The site is one document with in-page fragment navigation, so there is exactly
+  one URL. Fragments are not separate resources and are not listed.
+
+  No <lastmod> is given: an accurate value would have to come from the real
+  publish time, and a made-up date is worse than none — Google ignores lastmod
+  it does not trust. No <changefreq> or <priority> either; both are ignored.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://pongsapuk.github.io/TF696/</loc>
+  </url>
+</urlset>

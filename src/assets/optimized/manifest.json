@@ -1,0 +1,746 @@
+{
+  "generatedBy": "scripts/optimize-images.mjs",
+  "sources": {
+    "hero": {
+      "source": "img/main6962.jpg",
+      "sha256": "73a611a2c220d55ed574d2d916049c94447d7b93232705f471b5e45647b8eb69",
+      "format": "jpeg",
+      "width": 3508,
+      "height": 2400,
+      "bytes": 3472645,
+      "widths": [
+        640,
+        960,
+        1280,
+        1600,
+        1920,
+        2400
+      ],
+      "fallbackWidths": [
+        640,
+        960,
+        1280,
+        1600,
+        1920
+      ]
+    },
+    "direct-action": {
+      "source": "img/activity3.jpg",
+      "sha256": "730dd016c08b9aa8d614e255b678b058aa65b83dd76f54e273baa4e949026837",
+      "format": "jpeg",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 189501,
+      "widths": [
+        640,
+        960,
+        1280,
+        1600,
+        1920
+      ],
+      "fallbackWidths": [
+        640,
+        960,
+        1280,
+        1600,
+        1920
+      ]
+    },
+    "aviation": {
+      "source": "img/activity2.jpg",
+      "sha256": "b77b0d26a7ba2175ead1ef105a9dc96c8e2c81d7d72181fa3283eda9d983209d",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 3242623,
+      "widths": [
+        640,
+        960,
+        1280,
+        1600,
+        1920
+      ],
+      "fallbackWidths": [
+        640,
+        960,
+        1280,
+        1600,
+        1920
+      ]
+    },
+    "final-cta": {
+      "source": "img/activity6.jpg",
+      "sha256": "219f7dbe6129aa9c3d9222c315599236f02e6266dda57d917b2f121b4e7ccceb",
+      "format": "png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 3504879,
+      "widths": [
+        640,
+        960,
+        1280,
+        1600,
+        1920
+      ],
+      "fallbackWidths": [
+        640,
+        960,
+        1280,
+        1600,
+        1920
+      ]
+    },
+    "legion": {
+      "source": "img/557.png",
+      "sha256": "eab56c0092decfa0e05dc974e4e6445d545811b84da784ccc9fa4e0e9195ab3e",
+      "format": "png",
+      "width": 1200,
+      "height": 300,
+      "bytes": 136636,
+      "widths": [
+        600,
+        900,
+        1200
+      ],
+      "fallbackWidths": [
+        600,
+        900,
+        1200
+      ]
+    },
+    "cohort": {
+      "source": "img/2.png",
+      "sha256": "2e90cec68019a59d0d91e6c78f0a3ba087259db9879aa5c6af57b4b4c4fadc88",
+      "format": "png",
+      "width": 1200,
+      "height": 300,
+      "bytes": 171389,
+      "widths": [
+        600,
+        900,
+        1200
+      ],
+      "fallbackWidths": [
+        600,
+        900,
+        1200
+      ]
+    },
+    "fortis": {
+      "source": "img/3.png",
+      "sha256": "1176cdaaf0a194da93adcdfe87df466aa09514792b4790a9feb3e5d8d5c04aa3",
+      "format": "png",
+      "width": 1200,
+      "height": 300,
+      "bytes": 217372,
+      "widths": [
+        600,
+        900,
+        1200
+      ],
+      "fallbackWidths": [
+        600,
+        900,
+        1200
+      ]
+    },
+    "logo": {
+      "source": "img/696_Circle.png",
+      "sha256": "1398014cdb23c435d661f494c8db0f9cae8d359976c3561998d35b4e888eca51",
+      "format": "png",
+      "width": 3508,
+      "height": 2480,
+      "bytes": 1073111,
+      "widths": [
+        64,
+        128,
+        192,
+        256
+      ],
+      "fallbackWidths": [
+        64,
+        128,
+        192,
+        256
+      ]
+    }
+  },
+  "outputs": {
+    "hero/hero-640.avif": {
+      "stamp": "0440228773909d85502fa3a98af3071c1dca514c022bb9aac2d9197d28f69218",
+      "bytes": 55248,
+      "width": 640,
+      "format": "avif"
+    },
+    "hero/hero-960.avif": {
+      "stamp": "e1baef963eadaa009759c71619e1627eb5242e71ae66fae5132403ab0d725016",
+      "bytes": 126029,
+      "width": 960,
+      "format": "avif"
+    },
+    "hero/hero-1280.avif": {
+      "stamp": "1180fb71a36b9b3f78692a97eb2215fda11e83b01e83540cdf241ac13f2f97a5",
+      "bytes": 221596,
+      "width": 1280,
+      "format": "avif"
+    },
+    "hero/hero-1600.avif": {
+      "stamp": "79824887e9d44f97bee9aa7a7aa76a1149abf011fa909484a0cf5e01629426dd",
+      "bytes": 331115,
+      "width": 1600,
+      "format": "avif"
+    },
+    "hero/hero-1920.avif": {
+      "stamp": "e590d9c58659f5d5122f3a5b24a8a8c398cf2c50201111b27128e16681dddf72",
+      "bytes": 461315,
+      "width": 1920,
+      "format": "avif"
+    },
+    "hero/hero-2400.avif": {
+      "stamp": "e3e8b90bae3f53ba36a2f05ff132e443e14c4e883d4e618b4edce708fab9efbf",
+      "bytes": 689944,
+      "width": 2400,
+      "format": "avif"
+    },
+    "hero/hero-640.webp": {
+      "stamp": "9569340cd5f54b3bbd736401d7f78f45c609cf3abea5879f5237152ba6adb43c",
+      "bytes": 63154,
+      "width": 640,
+      "format": "webp"
+    },
+    "hero/hero-960.webp": {
+      "stamp": "4e6b231e29a63a17dca10feddab4203c17c412539e09c964ee920bd7759476b4",
+      "bytes": 145350,
+      "width": 960,
+      "format": "webp"
+    },
+    "hero/hero-1280.webp": {
+      "stamp": "1e8abe0e8bb0fcba955a1be29523c9249acb22a0b7659ca3863c3288cf307ee9",
+      "bytes": 263494,
+      "width": 1280,
+      "format": "webp"
+    },
+    "hero/hero-1600.webp": {
+      "stamp": "90ebcba3772dc821aeb91bde1f0d9ecb8bed52822e3b854a905a89e8d5a272ac",
+      "bytes": 397210,
+      "width": 1600,
+      "format": "webp"
+    },
+    "hero/hero-1920.webp": {
+      "stamp": "48fe724fcfd03d5db08d5a783c8c50f8ebc65aea36cacca35f6a0d2f7343b1f9",
+      "bytes": 550626,
+      "width": 1920,
+      "format": "webp"
+    },
+    "hero/hero-640.jpg": {
+      "stamp": "3b4261d7dfe80fe25c06c8a231360664c01f0922e8672b45c403e379f92882a1",
+      "bytes": 56146,
+      "width": 640,
+      "format": "jpeg"
+    },
+    "hero/hero-960.jpg": {
+      "stamp": "f47ffd7a9e1b81db69cf65efab8db8f57dee4688a8e07a09709095245931fd14",
+      "bytes": 127969,
+      "width": 960,
+      "format": "jpeg"
+    },
+    "hero/hero-1280.jpg": {
+      "stamp": "619f141a08dc8cd30143e157c2fdd26d1a52ef07c076bbb5e507d7baec14064b",
+      "bytes": 228730,
+      "width": 1280,
+      "format": "jpeg"
+    },
+    "hero/hero-1600.jpg": {
+      "stamp": "b16ad45929009940ede8feea9659b14e0c286b20feec880c32aa1b814cb5ca71",
+      "bytes": 350699,
+      "width": 1600,
+      "format": "jpeg"
+    },
+    "hero/hero-1920.jpg": {
+      "stamp": "c29b8addbc0d2b29f73302bc2d270f7342ae4bef6e3afc2b43bbc6eac98f161b",
+      "bytes": 491115,
+      "width": 1920,
+      "format": "jpeg"
+    },
+    "operations/direct-action-640.avif": {
+      "stamp": "f2f34b84a03f4162904a72f006290524f8146ad1097de91a5f8c06b1820109d9",
+      "bytes": 12308,
+      "width": 640,
+      "format": "avif"
+    },
+    "operations/direct-action-960.avif": {
+      "stamp": "d35a89658e0c1a149bd42833b31fdab26d34cf8e25c3ab7822765859b657983d",
+      "bytes": 24132,
+      "width": 960,
+      "format": "avif"
+    },
+    "operations/direct-action-1280.avif": {
+      "stamp": "c253e092b39a229dc4d41f71db8c24ea510b30691663f1389c6c11d8b8700f7b",
+      "bytes": 37077,
+      "width": 1280,
+      "format": "avif"
+    },
+    "operations/direct-action-1600.avif": {
+      "stamp": "977355b112cbbb6e3f96836c10fedb8b180eb7e1497fd02c1dd173ee783f413f",
+      "bytes": 51203,
+      "width": 1600,
+      "format": "avif"
+    },
+    "operations/direct-action-1920.avif": {
+      "stamp": "b1f32db2b68a1e5694c447ccde8d6b1f62a729352f15634c5c4826c550194dbe",
+      "bytes": 70983,
+      "width": 1920,
+      "format": "avif"
+    },
+    "operations/direct-action-640.webp": {
+      "stamp": "6e5ef545e8c1b4d1fc3e58b8bba3c19e59fe4bb3bb6b551f98c753ffcc8dbc0f",
+      "bytes": 14404,
+      "width": 640,
+      "format": "webp"
+    },
+    "operations/direct-action-960.webp": {
+      "stamp": "ebde2cb7a75b304ac376b7b26d5d61b5ebdeef0ed962c8f38cbb6c4ad35833e0",
+      "bytes": 27690,
+      "width": 960,
+      "format": "webp"
+    },
+    "operations/direct-action-1280.webp": {
+      "stamp": "173a5365a5fc300e0da463c0b5cf371da99d6805f3fbfc9bb3e52be115ec481b",
+      "bytes": 41082,
+      "width": 1280,
+      "format": "webp"
+    },
+    "operations/direct-action-1600.webp": {
+      "stamp": "68d6aeb3df876499f817fa11908266c87f8791298d8b68314c15e52bf83750c1",
+      "bytes": 56022,
+      "width": 1600,
+      "format": "webp"
+    },
+    "operations/direct-action-1920.webp": {
+      "stamp": "14bc4dbe1b42cb972812270414c46a78de7ea00ab19775ce62bb7f176ad43ca9",
+      "bytes": 74752,
+      "width": 1920,
+      "format": "webp"
+    },
+    "operations/direct-action-640.jpg": {
+      "stamp": "cc323a65fb3fcc49f89a3e37b424a1183f288821b68f7e3eae8bc721e06c2371",
+      "bytes": 16584,
+      "width": 640,
+      "format": "jpeg"
+    },
+    "operations/direct-action-960.jpg": {
+      "stamp": "d16fb10bbabb411de99e6be06d394e75ee3a33a572ea6e03b788963a886e27d2",
+      "bytes": 32903,
+      "width": 960,
+      "format": "jpeg"
+    },
+    "operations/direct-action-1280.jpg": {
+      "stamp": "f0e6166c7edc49ac012f094ef9161a1ddbdb6af4f436e6e1223494d06c6b1d14",
+      "bytes": 52204,
+      "width": 1280,
+      "format": "jpeg"
+    },
+    "operations/direct-action-1600.jpg": {
+      "stamp": "0b8df7c1a22e94b281b59001029fee1c807ebe1773390f5f3851eba525318fd1",
+      "bytes": 74916,
+      "width": 1600,
+      "format": "jpeg"
+    },
+    "operations/direct-action-1920.jpg": {
+      "stamp": "cdf0366083083718374dfe9735591e2947e8530cf1a1f5559a71f43a6fa3c296",
+      "bytes": 101754,
+      "width": 1920,
+      "format": "jpeg"
+    },
+    "operations/aviation-640.avif": {
+      "stamp": "204c9f479967539b2bf80ca5f8619f0ebff029d00b20ec02c2ae01f6a70df7cb",
+      "bytes": 22402,
+      "width": 640,
+      "format": "avif"
+    },
+    "operations/aviation-960.avif": {
+      "stamp": "8a3df48225c6c1c35add8296ee5b0415356de09b5df40fc2c0c47eacb8e299d7",
+      "bytes": 41350,
+      "width": 960,
+      "format": "avif"
+    },
+    "operations/aviation-1280.avif": {
+      "stamp": "51cdd215b74673edae01afeb5b06e0285a4176f68bf9ce916fd4208475f7762c",
+      "bytes": 63256,
+      "width": 1280,
+      "format": "avif"
+    },
+    "operations/aviation-1600.avif": {
+      "stamp": "e7e20db5a9252244ad178997f665935cd2e63ff5557798c52c107c12e92d7ebb",
+      "bytes": 87971,
+      "width": 1600,
+      "format": "avif"
+    },
+    "operations/aviation-1920.avif": {
+      "stamp": "84ddf8b905c18821b2e4ed8992488779fef8516283ac9f33dd3f3ad559a827f0",
+      "bytes": 118553,
+      "width": 1920,
+      "format": "avif"
+    },
+    "operations/aviation-640.webp": {
+      "stamp": "6024664b969fba686c918d14781f3a2a8fe7919f914d7665fced79abc4db9bc4",
+      "bytes": 30632,
+      "width": 640,
+      "format": "webp"
+    },
+    "operations/aviation-960.webp": {
+      "stamp": "42cebf3fbedc455b3e34862b335b53b28fb2f4800d879839ed0709703231e1d0",
+      "bytes": 55620,
+      "width": 960,
+      "format": "webp"
+    },
+    "operations/aviation-1280.webp": {
+      "stamp": "aab7a0f2cad2b4a6bce4c5bc61551f15d77747b76788b4fcd1a722924b2bcc5a",
+      "bytes": 85022,
+      "width": 1280,
+      "format": "webp"
+    },
+    "operations/aviation-1600.webp": {
+      "stamp": "d055dbbc57d78fd48c6d2dc39e961f40886e5120926c6f2be13c5def86c6e298",
+      "bytes": 117912,
+      "width": 1600,
+      "format": "webp"
+    },
+    "operations/aviation-1920.webp": {
+      "stamp": "35551bb2c04a04f0e44b167d8a778e5b2a73f1172931e31b4cd72c4e725aecdf",
+      "bytes": 159364,
+      "width": 1920,
+      "format": "webp"
+    },
+    "operations/aviation-640.jpg": {
+      "stamp": "37353583b21c5d5a7c2df8e63230ecb36866eeefc4a33a75bc54a3cc1c625cb3",
+      "bytes": 32062,
+      "width": 640,
+      "format": "jpeg"
+    },
+    "operations/aviation-960.jpg": {
+      "stamp": "9682eaebab3cc5fd62cbc9f55eed67733c17a1fa617409cc8a3f5d9b9206c9bc",
+      "bytes": 61676,
+      "width": 960,
+      "format": "jpeg"
+    },
+    "operations/aviation-1280.jpg": {
+      "stamp": "ece1827b26adef96fbb36538f7ad9e6d881092f7ccabee46368fbb4c6056f801",
+      "bytes": 96504,
+      "width": 1280,
+      "format": "jpeg"
+    },
+    "operations/aviation-1600.jpg": {
+      "stamp": "c4e500aa24e99459817f067cd6111fb37867ac01214873b7e5433bbce3ac1b0c",
+      "bytes": 138460,
+      "width": 1600,
+      "format": "jpeg"
+    },
+    "operations/aviation-1920.jpg": {
+      "stamp": "09037de40117010febc0fb46f0217f0f7ab246d38cc2d2555a3fac219cc8609f",
+      "bytes": 184798,
+      "width": 1920,
+      "format": "jpeg"
+    },
+    "final-cta/final-cta-640.avif": {
+      "stamp": "01f920a5620e5de059fb7bdcdd5a2628de353bf177a67e4d130eae996f345eca",
+      "bytes": 23111,
+      "width": 640,
+      "format": "avif"
+    },
+    "final-cta/final-cta-960.avif": {
+      "stamp": "86cc00b92637ad38b9ad951baa7dc5800c7c4fe7d5277f062fa4e10b43a3ab33",
+      "bytes": 44553,
+      "width": 960,
+      "format": "avif"
+    },
+    "final-cta/final-cta-1280.avif": {
+      "stamp": "46452348ae73336a14192778081c04c76949f7baf6ea3a65cec428b3335cc95f",
+      "bytes": 70362,
+      "width": 1280,
+      "format": "avif"
+    },
+    "final-cta/final-cta-1600.avif": {
+      "stamp": "90537dff831b818b0658785bb2d5b71c398b32699d001c47429167bfc6d10250",
+      "bytes": 101361,
+      "width": 1600,
+      "format": "avif"
+    },
+    "final-cta/final-cta-1920.avif": {
+      "stamp": "e4e5e6cd0610203766cc1e28de5d67b6046c3ac5eb4fee1bbea30739695d5ff8",
+      "bytes": 148749,
+      "width": 1920,
+      "format": "avif"
+    },
+    "final-cta/final-cta-640.webp": {
+      "stamp": "a691010c59ee360f24aec5ef387def2293f81062742e08a0bdb855be479b414e",
+      "bytes": 24770,
+      "width": 640,
+      "format": "webp"
+    },
+    "final-cta/final-cta-960.webp": {
+      "stamp": "0451163ab52dbd4ce42b82642ed6a7dbe0941b4b054c5d65bbb988ea51bd49c7",
+      "bytes": 47386,
+      "width": 960,
+      "format": "webp"
+    },
+    "final-cta/final-cta-1280.webp": {
+      "stamp": "e9ac5e0c2df04abac9d0ffd6913eb4ccba952e600ab3767dea12d819f6b28047",
+      "bytes": 69758,
+      "width": 1280,
+      "format": "webp"
+    },
+    "final-cta/final-cta-1600.webp": {
+      "stamp": "15a6b2f651033eaf8d819636627dbbd5d4c9850cdbc6f68a16309318084fb110",
+      "bytes": 98530,
+      "width": 1600,
+      "format": "webp"
+    },
+    "final-cta/final-cta-1920.webp": {
+      "stamp": "ecb8d3f6cbe61116ca4ee622b1e954b4000bb80c88a722e61d4301fc7ffff5a6",
+      "bytes": 139668,
+      "width": 1920,
+      "format": "webp"
+    },
+    "final-cta/final-cta-640.jpg": {
+      "stamp": "44f4780cbca119e0d0c4fcbf80f347ba95b169459d0dc54aec650704e3bca660",
+      "bytes": 27997,
+      "width": 640,
+      "format": "jpeg"
+    },
+    "final-cta/final-cta-960.jpg": {
+      "stamp": "dbe99c6a9122f8537f6d679297cd4ae33fa56f1df027c224af737b562c53bcc9",
+      "bytes": 56531,
+      "width": 960,
+      "format": "jpeg"
+    },
+    "final-cta/final-cta-1280.jpg": {
+      "stamp": "0dff5dc86d45fa99e44c55640a3322382c506aab3240eb337f86de7a102ce220",
+      "bytes": 91472,
+      "width": 1280,
+      "format": "jpeg"
+    },
+    "final-cta/final-cta-1600.jpg": {
+      "stamp": "8e1d234ef912990da965df1343798c016e1ddb1832e76fd20d4558f8402fbe62",
+      "bytes": 133806,
+      "width": 1600,
+      "format": "jpeg"
+    },
+    "final-cta/final-cta-1920.jpg": {
+      "stamp": "241e1cd2368e150e7d8fdec3aa1225a880f97e385693054fb65112fe0075f215",
+      "bytes": 188456,
+      "width": 1920,
+      "format": "jpeg"
+    },
+    "elements/legion-600.avif": {
+      "stamp": "71454eefcddc53f97d849f9d1b3923b8c51e8be29673a17818215461ecee7851",
+      "bytes": 2970,
+      "width": 600,
+      "format": "avif"
+    },
+    "elements/legion-900.avif": {
+      "stamp": "2c18cf4c419771b6861dd48041a9a934fe86dd37960a40179aa0553e3ac0b03c",
+      "bytes": 5001,
+      "width": 900,
+      "format": "avif"
+    },
+    "elements/legion-1200.avif": {
+      "stamp": "2d5902f0deb5920702b97e62c4224764a95c520a8332a3544c0ff48151cffba2",
+      "bytes": 7343,
+      "width": 1200,
+      "format": "avif"
+    },
+    "elements/legion-600.webp": {
+      "stamp": "71b51c865cf6519d63e47e09958a72aed836bf008f830e8af42c7be2d815fba0",
+      "bytes": 3020,
+      "width": 600,
+      "format": "webp"
+    },
+    "elements/legion-900.webp": {
+      "stamp": "461e24b55ac26cc0609ddb332f3bae2524b4f25e40bb413a4a2a10cab531181f",
+      "bytes": 5194,
+      "width": 900,
+      "format": "webp"
+    },
+    "elements/legion-1200.webp": {
+      "stamp": "97a01483e4e60eaa93ae92548383feb6f7d9159b96881be686c0927ba6c8ec8b",
+      "bytes": 7792,
+      "width": 1200,
+      "format": "webp"
+    },
+    "elements/legion-600.jpg": {
+      "stamp": "d7fedfb7ac2140e82cec659c0b8442ea8c0ca36bf3b20b5c45c8fef3fc1bc4dd",
+      "bytes": 4247,
+      "width": 600,
+      "format": "jpeg"
+    },
+    "elements/legion-900.jpg": {
+      "stamp": "c248cd00e295314f36b7fe8009c701d5a853a53da90d607d2c5f4bc9b4773c4d",
+      "bytes": 7836,
+      "width": 900,
+      "format": "jpeg"
+    },
+    "elements/legion-1200.jpg": {
+      "stamp": "f26388ac510fe2a2507bde68307cc9a1aae34bb06e7257ca48b8f3daa9327e19",
+      "bytes": 11844,
+      "width": 1200,
+      "format": "jpeg"
+    },
+    "elements/cohort-600.avif": {
+      "stamp": "662c7b0f07d9692bd0082563322e5403838cb86ecad53f6824422ce8ee313862",
+      "bytes": 5197,
+      "width": 600,
+      "format": "avif"
+    },
+    "elements/cohort-900.avif": {
+      "stamp": "8ec830ce7f26a4251b8e829a6a16c929349746a6374bd3156a99fc7d5372a39e",
+      "bytes": 9487,
+      "width": 900,
+      "format": "avif"
+    },
+    "elements/cohort-1200.avif": {
+      "stamp": "9e2513387b794423d3cefe302eedf4fe9702cf416ff72c2aa520e134f6ba183b",
+      "bytes": 14618,
+      "width": 1200,
+      "format": "avif"
+    },
+    "elements/cohort-600.webp": {
+      "stamp": "5b99d1f4fe727a27505a8e5e2c2044f137f64a11992e0da8d46538f6d4a76b3f",
+      "bytes": 6136,
+      "width": 600,
+      "format": "webp"
+    },
+    "elements/cohort-900.webp": {
+      "stamp": "62a3b983b3eadc0f0ecbee11074d1ef0f45c4424d80760979162969fa2961e99",
+      "bytes": 10898,
+      "width": 900,
+      "format": "webp"
+    },
+    "elements/cohort-1200.webp": {
+      "stamp": "c128ff556adfd10ebd1ab5761d7bbae368c67f48ae1a2a4c8c8eda534ab09fc5",
+      "bytes": 16510,
+      "width": 1200,
+      "format": "webp"
+    },
+    "elements/cohort-600.jpg": {
+      "stamp": "198a96b1b0b16af0a30ffead8417f3f47c76bd399dccac82a144ee989ee4eb56",
+      "bytes": 7708,
+      "width": 600,
+      "format": "jpeg"
+    },
+    "elements/cohort-900.jpg": {
+      "stamp": "7b28f95e95b7f2ab0c25de699e58a68b67bef1a024b78c53dd6ebef5e5d1c703",
+      "bytes": 14204,
+      "width": 900,
+      "format": "jpeg"
+    },
+    "elements/cohort-1200.jpg": {
+      "stamp": "877b4679d9e5cb498b0c5f03e80ab1945ad38cecd09555ad47e84b0778dde916",
+      "bytes": 21694,
+      "width": 1200,
+      "format": "jpeg"
+    },
+    "elements/fortis-600.avif": {
+      "stamp": "bcfaea13dccf1ce47b6f7dc8e1c185efe003f870e4f8cd3a623c762c49e0e944",
+      "bytes": 4840,
+      "width": 600,
+      "format": "avif"
+    },
+    "elements/fortis-900.avif": {
+      "stamp": "9c9dc83d2f404b42875fe5b1b0e64ad113be1b5ab6916408f88955f15ab784e3",
+      "bytes": 8487,
+      "width": 900,
+      "format": "avif"
+    },
+    "elements/fortis-1200.avif": {
+      "stamp": "ec4b21428ff98b7f8ce09138cfd756907b62ea4e0426fac90d4147ee0c0fec35",
+      "bytes": 12823,
+      "width": 1200,
+      "format": "avif"
+    },
+    "elements/fortis-600.webp": {
+      "stamp": "c9a4b0ccf63b8c2b05b74c9e8a870dca4da61dcc86ec3aad9748f4e4a554927e",
+      "bytes": 5364,
+      "width": 600,
+      "format": "webp"
+    },
+    "elements/fortis-900.webp": {
+      "stamp": "aa368be7ee0c2298e9362b333024e67831811cf1d5719d4333a264bca5fe8fd3",
+      "bytes": 9090,
+      "width": 900,
+      "format": "webp"
+    },
+    "elements/fortis-1200.webp": {
+      "stamp": "1562732c7c97327584423d3c4136129790e7f741fd5e672a605687a1cb9c3b22",
+      "bytes": 13392,
+      "width": 1200,
+      "format": "webp"
+    },
+    "elements/fortis-600.jpg": {
+      "stamp": "304d3547afa365c9c09146c946f081846c1ec94c57225c9c21ce22f851ca7aed",
+      "bytes": 6862,
+      "width": 600,
+      "format": "jpeg"
+    },
+    "elements/fortis-900.jpg": {
+      "stamp": "3edc1e0f9ff52a7b78c59f32e783f2b30ccb146502ab993a549adb0463edc35c",
+      "bytes": 12547,
+      "width": 900,
+      "format": "jpeg"
+    },
+    "elements/fortis-1200.jpg": {
+      "stamp": "62ccf0ca609fe843ca7fcd07abd5caf524f2dbce797192a4eb28ff98b3330f44",
+      "bytes": 19265,
+      "width": 1200,
+      "format": "jpeg"
+    },
+    "brand/logo-64.webp": {
+      "stamp": "a12ba8e7522f6ed9fc8e7ea0e8856559da1165a323b2d276d09a141cd1c3e743",
+      "bytes": 2010,
+      "width": 64,
+      "format": "webp"
+    },
+    "brand/logo-128.webp": {
+      "stamp": "2f3c5c2bfa649cdbd553ef5876c20ba0a0b295bdec233d33de6b00baaeae6ec9",
+      "bytes": 5386,
+      "width": 128,
+      "format": "webp"
+    },
+    "brand/logo-192.webp": {
+      "stamp": "3d04623d03efd0b2939d79652789197c262bc396b8b95154f37f56cca5ea07f5",
+      "bytes": 10078,
+      "width": 192,
+      "format": "webp"
+    },
+    "brand/logo-256.webp": {
+      "stamp": "d4c91e4b09e38fd986ecfa74a3d32366390975eb55710f60be8d76996cf5ca9a",
+      "bytes": 14004,
+      "width": 256,
+      "format": "webp"
+    },
+    "brand/logo-64.png": {
+      "stamp": "f292a9035c279d15d596a73e741f1ddc55b25ea4cad46a793242277bf7998a47",
+      "bytes": 2756,
+      "width": 64,
+      "format": "png"
+    },
+    "brand/logo-128.png": {
+      "stamp": "f64b65b828d2d8365962d9e5a6eb6483b615c7db01ea4d3085ce188dac773f75",
+      "bytes": 5875,
+      "width": 128,
+      "format": "png"
+    },
+    "brand/logo-192.png": {
+      "stamp": "2e515d8c0560439bd3d7d964b830b7d9bf20e1d0aed293e22c9eb517743dbcf7",
+      "bytes": 9873,
+      "width": 192,
+      "format": "png"
+    },
+    "brand/logo-256.png": {
+      "stamp": "8d7261f838d2567285cecc2778145307a2fe0ea51a58e30fabc5ddd5a2a15685",
+      "bytes": 14689,
+      "width": 256,
+      "format": "png"
+    }
+  }
+}

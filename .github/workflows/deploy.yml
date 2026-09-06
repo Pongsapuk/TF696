@@ -1,0 +1,79 @@
+# Builds the Vite site and publishes it to GitHub Pages.
+#
+# The site is a PROJECT page for Pongsapuk/TF696, served at
+# https://pongsapuk.github.io/TF696/. `base: '/TF696/'` in vite.config.js has to
+# match that path, and nothing here overrides it.
+#
+# The build is deliberately just `npm ci && npm run build`. Every derived image,
+# the favicon set and the social preview are generated in development and
+# committed to the repository, so `npm run optimize:images`,
+# `npm run favicon:generate` and `npm run og:generate` are NOT run here: they
+# read the archival masters in img/ and would spend minutes per deployment
+# reproducing files that are already checked in, byte for byte.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Lets a deployment be re-run from the Actions tab without an empty commit.
+  workflow_dispatch:
+
+# Nothing is granted at the top level; each job asks for the least it needs.
+permissions: {}
+
+# One Pages deployment at a time. Queued runs are not cancelled: cancelling a
+# run that is mid-deploy can leave the deployment half-applied, so a quick
+# series of pushes simply publishes in order.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          # 24 is the active LTS line and the version this build was developed
+          # and verified on.
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      # `pages: write` creates the deployment; `id-token: write` mints the OIDC
+      # token deploy-pages exchanges for it. No other scope is needed.
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
